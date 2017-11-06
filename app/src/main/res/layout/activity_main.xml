@@ -16,7 +16,8 @@
         android:hint="@string/edit_message"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -27,5 +28,6 @@
         android:onClick="sendMessage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:onClick="sendMessage" />
+        tools:onClick="sendMessage"
+        android:layout_marginRight="16dp" />
 </android.support.constraint.ConstraintLayout>
